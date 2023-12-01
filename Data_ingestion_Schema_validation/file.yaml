@@ -1,0 +1,26 @@
+file_type: csv
+dataset_name: CA_2013_onwards
+file_name: ca_2013_onwords
+table_name: df
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns:
+    - id
+    - state
+    - stop_date
+    - location_raw
+    - county_name
+    - county_fips
+    - driver_gender
+    - driver_age_raw
+    - driver_race_raw
+    - driver_race
+    - violation_raw
+    - violation
+    - search_conducted
+    - search_type_raw
+    - contraband_found
+    - stop_outcome
+    - is_arrested
+    - ethnicity
